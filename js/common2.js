@@ -144,7 +144,7 @@ $(document).ready(function() {
 		/*add class hover*/
 
 		var md = new MobileDetect(window.navigator.userAgent);
-		if(!md.mobile()){
+		if(md.mobile()){
 			menu.children('li').children('a').on('click', function(event) {
 
 				event.stopPropagation();
