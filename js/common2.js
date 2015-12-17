@@ -289,7 +289,7 @@ $(document).ready(function() {
 			});
 
 			if (_submenuContainerWidth > _mainMenuWidth - _itemLeftCord) {
-				//$currentItem.css('position','static');
+				$currentItem.css('position','static');
 				$submenuContainer.css({
 					'left':'auto',
 					'right':'0'
@@ -301,7 +301,7 @@ $(document).ready(function() {
 		$(window).resize(function () {
 			subSubmenuWidth();
 			$('.submenu-formed').removeClass('submenu-formed');
-			$('.submenu-container').attr('style','');
+			//$('.submenu-container').attr('style','');
 		});
 		$(window).scroll(function () {
 			$('.submenu-formed').removeClass('submenu-formed');
