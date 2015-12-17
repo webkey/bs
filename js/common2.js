@@ -276,7 +276,8 @@ $(document).ready(function() {
 					'width':_submenuContainerWidth + 20,
 					'height':_dropMaxHeight<dropMinHeight ? _dropMaxHeight : _dropMaxHeight+bottomSpace,
 					'padding-bottom':0,
-					'overflow':'auto'
+					'overflow':'auto',
+					'margin-right':'-10px'
 				});
 			}
 
@@ -292,8 +293,7 @@ $(document).ready(function() {
 				$currentItem.css('position','static');
 				$submenuContainer.css({
 					'left':'auto',
-					'right':'0',
-					'margin-right':'-10px'
+					'right':'0'
 				});
 			}
 			/*drop menu position end*/
