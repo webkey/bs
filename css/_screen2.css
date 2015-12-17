@@ -1,0 +1,10 @@
+.l-header .h-logo {
+	width: 520px;
+}
+.l-header .h-logo-txt{
+	padding-top:42px;
+}
+
+.h-menu > li {
+	position: relative;
+}

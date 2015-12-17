@@ -1,0 +1,655 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<meta charset="utf-8">
+	<title>Национальный правовой Интернет-портал Республики Беларусь</title>
+	<link rel="SHORTCUT ICON" href="favicon.ico">
+	<meta name="viewport" id="viewport" content="width=device-width">
+	<script src="js/lib/mobile-detect.min.js"></script>
+	<script>
+		var md = new MobileDetect(window.navigator.userAgent);
+			var viewport = document.getElementById('viewport');
+			if (md.tablet()) {
+				viewport.setAttribute("content", "width=device-width, initial-scale=1, maximum-scale=1.2, user-scalable=1");
+			}
+	</script>
+	<!--[if lte IE 9]>
+		<script type="text/javascript" src="js/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<header class="l-header">
+		<div class="graph"><i></i><i></i><i></i></div>
+		<div class="wrap">
+			<div class="topline">
+				<div class="b-lang"><a href="#"><span>Eng</span></a></div>
+				<div class="b-search">
+					<div class="search-show"><i class="ico-search"></i></div>
+					<form action="#form-submitted" class="search">
+						<div class="search-close"><i class="ico-close"><span></span></i></div>
+						<div>
+							<input type="search" placeholder="поиск на сайту">
+							<div class="search-submit"><i class="ico-search"></i><input type="submit" value=""></div>
+						</div>
+					</form>
+				</div>
+				<div class="region-select">
+					<a href="#"><i class="ico-regions"></i><span>Региональные сайты</span><i class="ico-arrow-down"></i></a>
+					<ul  class="b-related">
+						<li class="active"><a href="#">Белстат</a></li>
+						<li><a href="#">ГСУ г.Минска</a></li>
+						<li><a href="#">ГСУ Минской обл.</a></li>
+						<li><a href="#">ГСУ Гродненской обл.</a></li>
+						<li><a href="#">ГСУ Могилёвской обл.</a></li>
+						<li><a href="#">ГСУ Гомельской обл.</a></li>
+						<li><a href="#">ГСУ Брестская обл.</a></li>
+						<li><a href="#">ГСУ Витебской обл.</a></li>
+					</ul>
+				</div>
+				<ul class="topmenu">
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">Вакансии</a></li>
+					<li><a href="#">Закупки</a></li>
+					<li><a href="#">Обратная связь</a></li>
+					<li><a href="#">Сообщить об ошибке</a></li>
+					<li><a href="#">Подписка на рассылку</a></li>
+				</ul>
+			</div>
+			<div class="h-logo">
+				<div class="h-logo-img"><img src="i/logo-main.png" alt=""></div>
+				<div class="h-logo-txt">Национальный статистический комитет Республики Беларусь</div>
+			</div>
+			<div class="h-about">
+				<div class="h-about-logo"><img src="i/logo-sub.png" alt=""></div>
+				<div class="h-about-text">
+					220070, Минск, Партизанский проспект, 12<br>
+					Эл. почта: <a href="mailto:belstat@mail.belpak.by">belstat@mail.belpak.by</a><br>
+					<a href="#" target="_blank">Белстат в Facebook <i class="ico-fb"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="h-menu-container">
+			<div class="submenu-close">X</div>
+			<div class="wrap">
+				<ul class="h-menu">
+					<li>
+						<a href="#">Официальная статистика<i class="ico-arrow-down"></i></a>
+						<div class="submenu-container">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="#">Официальная статистика</a>
+										<ul>
+											<li><a href="#">Национальные счета</a></li>
+											<li><a href="#">Финансы организаций</a></li>
+											<li><a href="#">Цены</a></li>
+											<li><a href="#">Внешняя торговля</a></li>
+											<li><a href="#">Окружающая среда</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li><a href="#">Статистика других государственных органов РБ</a>
+										<ul>
+											<li><a href="#">Официальная статистическая информация государственных органов и организаций Республики Беларусь</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Реальный сектор экономики</a>
+										<ul>
+											<li><a href="#">Промышленность</a></li>
+											<li><a href="#">Энергетика</a></li>
+											<li><a href="#">Сельское и лесное хозяйство</a></li>
+											<li><a href="#">Строительство и инвестиции</a></li>
+											<li><a href="#">Внутренняя торговля</a></li>
+											<li><a href="#">Связь и информационно- коммуникационные технологии</a></li>
+											<li><a href="#">Транспорт</a></li>
+											<li><a href="#">Предпринимательство</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Социальная сфера</a>
+										<ul>
+											<li><a href="#">Демография и перепись населения</a></li>
+											<li><a href="#">Труд и заработная плата</a></li>
+											<li><a href="#">Уровень жизни населения</a></li>
+											<li><a href="#">Платные услуги населению</a></li>
+											<li><a href="#">Туризм</a></li>
+											<li><a href="#">Образование</a></li>
+											<li><a href="#">Наука и инновации</a></li>
+											<li><a href="#">Культура</a></li>
+											<li><a href="#">Здравоохранения</a></li>
+											<li><a href="#">Правонарушения</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Базы данных</a>
+										<ul>
+											<li><a href="#">Базы данных </a></li>
+											<li><a href="#">База данных Belarusinfo</a></li>
+											<li><a href="#">База данных переписи населения 2009</a></li>
+											<li><a href="#">База данных по статистике населения</a></li>
+											<li><a href="#">База данных TransMONEE</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Пользователям</a>
+										<ul>
+											<li><a href="#">Календарь пользователя</a></li>
+											<li><a href="#">Сотрудничество на платной основе</a></li>
+											<li><a href="#">Анкета пользователя</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Публикации</a>
+										<ul>
+											<li><a href="#">Статистические ищдания (сборники, бюллетени)</a></li>
+											<li><a href="#">Каталог статических изданий  (на текущий год)</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Специальный стандарт распространения данных (ССРД) МВФ</a>
+										<ul>
+											<li><a href="#">Национальная страница сводных данных</a></li>
+											<li><a href="#">Таблицы сводных данных</a></li>
+											<li><a href="#">Метаданные</a></li>
+											<li><a href="#">Календарь выпуска данных</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="#">Методология<i class="ico-arrow-down"></i></a>
+						<div class="submenu-container">
+							<div class="submenu">
+								<ul>
+									<li>
+										<a href="#">Базы данных</a>
+										<ul>
+											<li><a href="#">Базы данных </a></li>
+											<li><a href="#">База данных Belarusinfo</a></li>
+											<li><a href="#">База данных переписи населения 2009</a></li>
+											<li><a href="#">База данных по статистике населения</a></li>
+											<li><a href="#">База данных TransMONEE</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Пользователям</a>
+										<ul>
+											<li><a href="#">Календарь пользователя</a></li>
+											<li><a href="#">Сотрудничество на платной основе</a></li>
+											<li><a href="#">Анкета пользователя</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Публикации</a>
+										<ul>
+											<li><a href="#">Статистические ищдания (сборники, бюллетени)</a></li>
+											<li><a href="#">Каталог статических изданий  (на текущий год)</a></li>
+										</ul>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">Специальный стандарт распространения данных (ССРД) МВФ</a>
+										<ul>
+											<li><a href="#">Национальная страница сводных данных</a></li>
+											<li><a href="#">Таблицы сводных данных</a></li>
+											<li><a href="#">Метаданные</a></li>
+											<li><a href="#">Календарь выпуска данных</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li><a href="#">Классификаторы<i class="ico-arrow-down"></i></a></li>
+					<li><a href="#">О белстате<i class="ico-arrow-down"></i></a></li>
+					<li><a href="#">Респондентам<i class="ico-arrow-down"></i></a></li>
+					<li><a href="#">Обращения<i class="ico-arrow-down"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="wrap">
+		<div class="layout">
+			<div class="backnav">
+				<a href="#">Главная</a> /
+				<a href="#">Официальная статистика</a> /
+				<a href="#">Пользователям</a> /
+				<a href="#">Сотрудничество на платной основе</a>
+			</div>
+			<div class="l-wrap">
+				<aside class="l-aside">
+
+					<ul class="inmenu">
+						<li><a href="#"><span>Официальная статистика</span></a>
+							<ul class="inmenu__list">
+								<li><a href="#"><i class="ico-arrow-down"></i><span>Отрасли статистики</span></a></li>
+								<li class="active"><a href="#"><i class="ico-arrow-down"></i><span>Регионы Республики Беларусь</span></a>
+									<ul>
+										<li><a href="#"><span>Оперативные данные</span></a></li>
+										<li class="active"><a href="#"><i class="ico-arrow-down"></i><span>Годовые данные</span></a>
+											<ul>
+												<li><a href="#"><span>Население</span></a></li>
+												<li><a href="#"><span>Промышленность</span></a></li>
+												<li class="active"><a href="#"><span>Сельское хозяйство</span></a></li>
+												<li><a href="#"><span>Инвестиции и строительство</span></a></li>
+											</ul>
+										</li>
+										<li><a href="#"><span>Графический материал (графики, диаграммы)</span></a></li>
+									</ul>
+								</li>
+								<li><a href="#"><i class="ico-arrow-down"></i><span>Международные сравнения</span></a></li>
+								<li><a href="#"><i class="ico-arrow-down"></i><span>Базы данных</span></a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<div class="l-block l-banner"><a href="#"><img src="userimg/banner1.jpg" alt=""></a></div>
+
+					<div class="news-list news-list_small">
+						<div class="b-header">Новости</div>
+						<div class="news-item">
+							<div class="news-header"><a href="#">О начисленной средней заработной плате работников Республики Беларусь в июле 2015 г.</a></div>
+							<p><i class="date">25.08.2015</i><a href="#" class="news-related">Заплата</a></p>
+						</div>
+						<div class="news-item">
+							<div class="news-header"><a href="#">О начисленной средней заработной плате работников Республики Беларусь в июле 2015 г.</a></div>
+							<p><i class="date">25.08.2015</i><a href="#" class="news-related">Основные социально-экономические показатели по регионам</a></p>
+						</div>
+					</div>
+
+
+					<div class="r-block">
+						<dl class="dl-list">
+							<dt><a href="#" class="link-ico"><i class="ico-calendar"></i><span>Календарь респондента</span></a></dt>
+							<dt><a href="#" class="link-ico"><i class="ico-day"></i><span>Календарь пользователя</span></a></dt>
+							<dt><a href="#" class="link-ico"><i class="ico-form"></i><span>Анкета пользователя</span></a></dt>
+							<dd>В целях улучшения качества официальной статистической информации, совершенствования практики ее распространения, обеспечения обратной связи с ее пользователями, определения их потребностей в официальной статистической информации органами государственной статистики проводится опрос.</dd>
+						</dl>
+						<footer class="dl-footer"><a href="#" class="button">Пройти опрос</a></footer>
+					</div>
+				</aside>
+				<div class="l-main">
+					<div class="content-header">Публикации</div>
+					<ul class="pubs__tabs">
+						<li class="active">
+							<a class="pubs__btn">Сборники</a>
+						</li>
+						<li>
+							<a href="#" class="pubs__btn"><span>Бюллетени</span></a>
+						</li>
+					</ul>
+					<div class="pubs__list">
+						<table>
+							<tr>
+								<th>Наименование публикации</th>
+								<th>Периодичность</th>
+								<th>Дата регистрации</th>
+							</tr>
+							<tr>
+								<td><a href="#">Внешняя торговля Республики Беларусь, 2015</a></td>
+								<td>Месячная</td>
+								<td>16 сентября 2015</td>
+							</tr>
+							<tr>
+								<td><a href="#">Производство важнейших видов промышленной продукции в 2015 году</a></td>
+								<td>Годовая</td>
+								<td>16 сентября 2015</td>
+							</tr>
+							<tr>
+								<td><a href="#">Индексы промышленного производства по  видам экономической деятельности (ОКЭД) в 2015 г.</a></td>
+								<td>Годовая</td>
+								<td>16 сентября 2015</td>
+							</tr>
+							<tr>
+								<td><a href="#">Индексы промышленного производства по видам экономической деятельности (ОКЭД) в 2014 г.</a></td>
+								<td>Годовая</td>
+								<td>16 сентября 2015</td>
+							</tr>
+							<tr>
+								<td><a href="#">Графический материал (графики, диаграммы)</a></td>
+								<td>Годовая</td>
+								<td>16 сентября 2015</td>
+							</tr>
+							<tr>
+								<td><a href="#">Динамика потребления электрической энергии</a></td>
+								<td>Годовая</td>
+								<td>16 сентября 2015</td>
+							</tr>
+						</table>
+					</div>
+					<div class="pagination">
+						<a href="#prev" class="prev"><i class="ico-arrow-left"></i></a>
+						<ul>
+							<li><a href="#">1</a></li><!-- 
+						 --><li><a href="#">2</a></li><!-- 
+						 --><li><a href="#">3</a></li><!-- 
+						 --><li class="active"><a href="#">4</a></li><!-- 
+						 --><li><a href="#">5</a></li><!-- 
+						 --><li><a href="#">6</a></li><!-- 
+						 --><li><a href="#">7</a></li><!-- 
+						 --><li><a href="#">8</a></li><!-- 
+						 --><li><a href="#">9</a></li><!-- 
+						 --><li><a href="#">10</a></li>
+						</ul>
+						<a href="#next" class="next"><i class="ico-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="l-footer">
+		<div class="wrap">
+			<ul class="f-links">
+				<li><a href="#"><i class="ico-check"></i><span>Базы данных</span></a></li>
+				<li><a href="#"><i class="ico-check"></i><span>Стандарты</span></a></li>
+				<li><a href="#"><i class="ico-check"></i><span>Калькулятор персональной инфляции</span></a></li>
+				<li><a href="#"><i class="ico-check"></i><span>Полезные ссылки</span></a></li>
+				<li><a href="#"><i class="ico-check"></i><span>Карта сайта</span></a></li>
+			</ul>
+		</div>
+		<div class="wrap">
+			<ul class="f-menu">
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Административные процедуры</a></li>
+				<li><a href="#">Электронные обращения</a></li>
+			</ul>
+			<div class="copy">
+				<div class="copy-logo"><img src="i/logo-rb.png" alt=""></div>
+				<div class="copy-text">© Национальный статистический комитет Республики Беларусь, 1998-2014</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="s-slider__wrap">
+				<div class="s-slider">
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner1.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner2.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner3.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner4.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner5.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner1.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner2.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner3.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner4.png" alt=""></a>
+					<a href="#" class="s-slider__item"><img src="userimg/f-banner5.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div class="wrap">
+			<a href="" class="developer"><span>Разработка сайта —</span><b><img src="i/dev.png"></b></a>
+		</div>
+	</footer>
+
+
+
+	<!-- mobile -->
+
+	<div class="mobile-topline">
+		<div class="h-sidemenu"><span></span></div>
+		<div class="h-logo">
+			<div class="h-logo-img"><img src="i/logo-main.png" alt=""></div>
+			<div class="h-logo-txt">Национальный статистический<br>комитет Республики Беларусь</div>
+		</div>
+	</div>
+
+	<header class="mobile-header">
+		<ul class="h-menu">
+			<li>
+				<a href="#">Официальная статистика</a>
+				<div class="submenu-container">
+					<div class="submenu">
+						<ul>
+							<li>
+								<a href="#">Официальная статистика</a>
+								<ul>
+									<li><a href="#">Национальные счета</a></li>
+									<li><a href="#">Финансы организаций</a></li>
+									<li><a href="#">Цены</a></li>
+									<li><a href="#">Внешняя торговля</a></li>
+									<li><a href="#">Окружающая среда</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li><a href="#">Статистика других государственных органов РБ</a>
+								<ul>
+									<li><a href="#">Официальная статистическая информация государственных органов и организаций Республики Беларусь</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Реальный сектор экономики</a>
+								<ul>
+									<li><a href="#">Промышленность</a></li>
+									<li><a href="#">Энергетика</a></li>
+									<li><a href="#">Сельское и лесное хозяйство</a></li>
+									<li><a href="#">Строительство и инвестиции</a></li>
+									<li><a href="#">Внутренняя торговля</a></li>
+									<li><a href="#">Связь и информационно- коммуникационные технологии</a></li>
+									<li><a href="#">Транспорт</a></li>
+									<li><a href="#">Предпринимательство</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Социальная сфера</a>
+								<ul>
+									<li><a href="#">Демография и перепись населения</a></li>
+									<li><a href="#">Труд и заработная плата</a></li>
+									<li><a href="#">Уровень жизни населения</a></li>
+									<li><a href="#">Платные услуги населению</a></li>
+									<li><a href="#">Туризм</a></li>
+									<li><a href="#">Образование</a></li>
+									<li><a href="#">Наука и инновации</a></li>
+									<li><a href="#">Культура</a></li>
+									<li><a href="#">Здравоохранения</a></li>
+									<li><a href="#">Правонарушения</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Базы данных</a>
+								<ul>
+									<li><a href="#">Базы данных </a></li>
+									<li><a href="#">База данных Belarusinfo</a></li>
+									<li><a href="#">База данных переписи населения 2009</a></li>
+									<li><a href="#">База данных по статистике населения</a></li>
+									<li><a href="#">База данных TransMONEE</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Пользователям</a>
+								<ul>
+									<li><a href="#">Календарь пользователя</a></li>
+									<li><a href="#">Сотрудничество на платной основе</a></li>
+									<li><a href="#">Анкета пользователя</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Публикации</a>
+								<ul>
+									<li><a href="#">Статистические ищдания (сборники, бюллетени)</a></li>
+									<li><a href="#">Каталог статических изданий  (на текущий год)</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Специальный стандарт распространения данных (ССРД) МВФ</a>
+								<ul>
+									<li><a href="#">Национальная страница сводных данных</a></li>
+									<li><a href="#">Таблицы сводных данных</a></li>
+									<li><a href="#">Метаданные</a></li>
+									<li><a href="#">Календарь выпуска данных</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li><a href="#">Методология</a>
+				<div class="submenu-container">
+					<div class="submenu">
+						<ul>
+							<li>
+								<a href="#">Базы данных</a>
+								<ul>
+									<li><a href="#">Базы данных </a></li>
+									<li><a href="#">База данных Belarusinfo</a></li>
+									<li><a href="#">База данных переписи населения 2009</a></li>
+									<li><a href="#">База данных по статистике населения</a></li>
+									<li><a href="#">База данных TransMONEE</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Пользователям</a>
+								<ul>
+									<li><a href="#">Календарь пользователя</a></li>
+									<li><a href="#">Сотрудничество на платной основе</a></li>
+									<li><a href="#">Анкета пользователя</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Публикации</a>
+								<ul>
+									<li><a href="#">Статистические ищдания (сборники, бюллетени)</a></li>
+									<li><a href="#">Каталог статических изданий  (на текущий год)</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">Специальный стандарт распространения данных (ССРД) МВФ</a>
+								<ul>
+									<li><a href="#">Национальная страница сводных данных</a></li>
+									<li><a href="#">Таблицы сводных данных</a></li>
+									<li><a href="#">Метаданные</a></li>
+									<li><a href="#">Календарь выпуска данных</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li><a href="#">Классификаторы</a></li>
+			<li><a href="#">О белстате</a></li>
+			<li><a href="#">Респондентам</a></li>
+			<li><a href="#">Обращения</a></li>
+		</ul>
+		<div class="h-about">
+			<div class="h-about-logo"><img src="i/logo-sub.png" alt=""></div>
+			<div class="h-about-text">
+				220070, Минск, Партизанский проспект, 12<br>
+				Эл. почта: <a href="mailto:belstat@mail.belpak.by">belstat@mail.belpak.by</a><br>
+				<a href="#" target="_blank">Белстат в Facebook <i class="ico-fb"></i></a>
+			</div>
+		</div>
+		<ul class="topmenu topmenu_mobile">
+			<li><a href="#">Новости</a></li>
+			<li><a href="#">Вакансии</a></li>
+			<li><a href="#">Закупки</a></li>
+			<li><a href="#">Обратная связь</a></li>
+			<li><a href="#">Сообщить об ошибке</a></li>
+			<li><a href="#">Подписка на рассылку</a></li>
+		</ul>
+		<div class="mobile-h-block">
+			<div class="aside__slider">
+				<div class="promo__item">
+					<i class="icon icon5"></i>
+					<div>
+						<p class="promo__title">Индекс сельскохозяйственного производства (6 мес. 2015 г.)</p>
+						<p class="promo__num">88,5%</p>
+						<p>(6 месяцев 2014 г. = 100%)</p>
+					</div>
+				</div>
+				<div class="promo__item">
+					<i class="icon icon5"></i>
+					<div>
+						<p class="promo__title">Индекс сельскохозяйственного производства (6 мес. 2015 г.)</p>
+						<p class="promo__num">88,5%</p>
+						<p>(6 месяцев 2014 г. = 100%)</p>
+					</div>
+				</div>
+				<div class="promo__item">
+					<i class="icon icon5"></i>
+					<div>
+						<p class="promo__title">Индекс сельскохозяйственного производства (6 мес. 2015 г.)</p>
+						<p class="promo__num">88,5%</p>
+						<p>(6 месяцев 2014 г. = 100%)</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<link rel="stylesheet" property="stylesheet" media="screen" href="css/screen.css">
+	<link rel="stylesheet" property="stylesheet" media="screen" href="css/adaptive.css">
+	<link rel="stylesheet" property="stylesheet" media="screen" href="css/animate.css">
+	<link rel="stylesheet" property="stylesheet" media="screen" href="fonts/style.css">
+	<link rel="stylesheet" property="stylesheet" media="screen" href="css/skin.css">
+
+	<!--[if gte IE 9]>
+		<style type="text/css">.gradient {filter: none;}</style>
+	<![endif]-->
+	<!--[if lte IE 9]>
+		<script type="text/javascript" src="js/html5shiv.min.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+	<![endif]-->
+
+	<script src="js/jquery.min.js"></script>
+	<!-- <script src="js/lib/modernizr-custom.js"></script> -->
+	<!--[if (gte IE 6)&(lte IE 8)]>
+		<script type="text/javascript" src="js/lib/selectivizr-min.js"></script>
+		<script type="text/javascript" src="js/lib/PIE_IE678.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie8.css">
+	<![endif]-->
+	<script type="text/javascript" src="js/lib/jquery.debouncedresize.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.scrollTo.min.js"></script>
+	<script type="text/javascript" src="js/lib/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/lib/imagesloaded.pkgd.min.js"></script>
+	<script type="text/javascript" src="js/lib/css-global-order.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.placeholder.min.js"></script>
+
+	<!-- slick -->
+	<link rel="stylesheet" property="stylesheet" media="screen" href="js/lib/slick/slick.css">
+	<script type="text/javascript" src="js/lib/slick/slick.min.js"></script>
+
+	<script type="text/javascript" src="js/common.js"></script>
+
+</body>
+</html>
