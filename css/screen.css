@@ -18,12 +18,15 @@ input:focus, textarea:focus {
 body {
 	font-family: Tahoma, sans-serif;
 	background: #e9ffe3;
-	font-weight: normal;
 	font-size: 62.5%;
 	font-weight: 100;
 	color: #333;
 	line-height: 1.4;
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
+}
+body.body-fixed{
+	overflow: hidden !important;
+	padding-right: 17px;
 }
 
 ::-moz-selection { background: #f5eee1; color: #000;}
@@ -856,7 +859,7 @@ q:after {
 }
 
 .h-menu-container.fixed {
-	bottom: none;
+	bottom: auto;
 	top: 0;
 	margin-top: 0;
 	position: fixed;
@@ -868,6 +871,10 @@ q:after {
 
 .h-menu {
 	position: relative;
+}
+
+.body-fixed .h-menu-container.fixed .h-menu{
+	margin-right: 17px;
 }
 
 .h-menu.disabled {
@@ -932,6 +939,12 @@ q:after {
 	visibility: visible;
 }
 
+.l-header .h-menu .submenu-container.submenu-scrolled {
+	padding-bottom:0;
+	overflow:auto;
+	margin-right:-10px;
+}
+
 .submenu-container {
 	display: none;
 	position: absolute;
@@ -984,7 +997,7 @@ q:after {
 }
 
 .submenu > ul {
-	padding: 10px 20px 10px;
+	padding: 6px 20px;
 	float: left;
 	width: 20%;
 	-webkit-box-sizing: border-box;
@@ -998,6 +1011,7 @@ q:after {
 
 .submenu > ul li a {
 	color: #333;
+	padding-top: 2px;
 }
 
 .h-logo {
@@ -1797,6 +1811,10 @@ q:after {
 	content:"";
 	display: block;
 	clear: both;
+}
+
+.promo__slider .slick-list{
+	height: 96px;
 }
 
 .promo__item:after {
