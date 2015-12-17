@@ -292,7 +292,8 @@ $(document).ready(function() {
 				$currentItem.css('position','static');
 				$submenuContainer.css({
 					'left':'auto',
-					'right':'0'
+					'right':'0',
+					'margin-right':'-10px'
 				});
 			}
 			/*drop menu position end*/
