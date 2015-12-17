@@ -151,11 +151,12 @@ $(document).ready(function() {
 
 				var $cur = $(this);
 				var $curParent = $cur.parent();
-				console.log(1);
-				if(!$curParent.has('ul').length || $curParent.hasClass('hover')){ return; }
+				if(!$curParent.has('ul').length || $curParent.hasClass('hover')){
+					window.location = $cur.attr('href');
+					return;
+				}
 				removerHover();
 				$curParent.addClass('hover');
-				window.location = $cur.attr('href');
 
 				event.preventDefault();
 			});
